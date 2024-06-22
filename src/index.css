@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rdrDayToday:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span::after,
+.rdrDayToday:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span::after,
+.rdrDayToday:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span::after,
+.rdrDayToday:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span::after{
+  background-color: #fff !important;
+}
+.rdrDayToday .rdrDayNumber span:after {
+  background: #ed1d24 !important;
+  }
+
+.rdrMonthAndYearPickers {
+    font-size: 16px;
+  }
+
+.rdrDayNumber,
+.rdrWeekDay {
+  color: #1e1f23 !important;
+  font-weight:  500 !important;
+}
+
+
+
+/* Add this to your index.css or a similar global stylesheet */
+
+.react-select__control {
+  @apply border-gray-300 rounded-md shadow-sm;
+}
+.react-select__multi-value__label{
+  @apply  text-white  bg-customRed hover:bg-red-900  p-0 !important;
+}
+
+.react-select__multi-value__remove{
+  @apply w-[17px]  ;
+}
+/* Prevent zoom on double-tap for the react-select container */
+.react-select-container {
+  touch-action: manipulation;
+}
+.react-select__input-container{
+  @apply p-0 !important;
+}
+.react-select__indicator{
+  @apply w-[40px] !important;
+}
+
+.react-select__dropdown-indicator{
+  @apply w-5 align-middle;
+}
+.react-select__menu {
+  @apply bg-white border border-gray-300 rounded-md shadow-lg;
+}
+
+.react-select__option--is-focused {
+  @apply bg-gray-100;
+}
+
+.react-select__option--is-selected {
+  @apply bg-gray-200 font-semibold;
+}
+.swiper-pagination-bullet {
+  background: red !important;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: red !important;
+}
+/* styles.css */
+/* styles.css */
+.parent-div:hover .hover-target {
+  width: 290px; /* Nouvelle largeur lors du survol */
+  transition: width 0.3s ease; /* Ajoute une transition en douceur */
+}
+
+@layer base {
+  
+  body {
+    @apply font-primary text-lg;
+  }
+
+  h1{
+    @apply text-4xl xl:text-[64px] text-black xl:leading-[72px] font-extrabold mb-[18px];
+  }
+
+  h2{
+    @apply text-4xl mb-6 font-bold;
+  }
+  h3{
+    @apply text-xl mb-4 font-semibold;
+  }
+  h5,
+  h6 {
+    @apply text-dark;
+  }
+  .title,
+  .section-title {
+    @apply text-6xl lg:text-8xl mb-6 font-bold;
+  }
+  .h2 {
+    @apply text-5xl lg:text-7xl font-bold;
+  }
+  .pretitle {
+    @apply text-lg lg:text-[22px] text-light mb-4 lg:mb-6 uppercase font-normal;
+  }
+  .lead {
+    @apply text-2xl text-light font-normal mb-6;
+  }
+  .link {
+    @apply text-lg text-dark;
+  }
+  .section {
+    @apply w-full h-screen pt-[0px] xl:pt-[120px];
+  }
+  .btn {
+    @apply rounded-[10px] w-full uppercase font-medium
+    text-white tracking-[2px] text-[13px] flex justify-center
+    items-center transition-all duration-300;
+  }
+  .btn-cta{
+    @apply  rounded-[5px] px-4  text-white
+    transition-all duration-300
+  }
+  .description{
+    @apply text-base xl:text-xl xl:leading-8
+  }
+  .btn-lg {
+    @apply h-16;
+  }
+  .btn-md {
+    @apply h-16;
+  }
+  .btn-primary{
+    @apply  bg-black;
+  }
+  .btn-sm {
+    @apply h-14;
+  }
+  .btn-accent {
+    @apply text-white bg-customRed hover:bg-red-800;
+  }
+  .btn-white {
+    @apply bg-customRed bg-white hover:bg-white/90;
+  }
+  .btn-outline {
+    @apply bg-transparent bg-customRed border border-accent hover:bg-red-800 hover:text-white;
+  }
+  .btn-link {
+    @apply bg-customRed text-xl lg:text-2xl;
+  }
+  .active{
+    @apply text-customRed;
+  }
+  .HoverColor{
+    @apply hover:text-red-700;
+  }
+  
+ 
+
+}
