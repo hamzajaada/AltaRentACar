@@ -69,19 +69,19 @@ export const cars = [
 ];
 export const testimonials = [
   {
-    message: "As a business owner, I often need reliable vehicles for my operations. Elite Rent a Car has consistently met my needs with a wide variety of choices and competitive prices. Their professionalism and flexibility make them my first choice every time.",
+    message: "As a business owner, I often need reliable vehicles for my operations. AltaRent a Car has consistently met my needs with a wide variety of choices and competitive prices. Their professionalism and flexibility make them my first choice every time.",
     avatar: logoTest,
     name: "Carlos S.",
     job: "Local Entrepreneur"
   },
   {
-    message: "Elite Rent a Car made our trip to Tenerife seamless and stress-free. The pick-up and drop-off process was quick and easy, and the staff were incredibly helpful in recommending routes and places to visit. I would definitely use their services again!",
+    message: "AltaRent a Car made our trip to Tenerife seamless and stress-free. The pick-up and drop-off process was quick and easy, and the staff were incredibly helpful in recommending routes and places to visit. I would definitely use their services again!",
     avatar: logoTest2,
     name: "Jane Smith",
     job: "Project Manager"
   },
   {
-    message: "Renting a car from Elite Rent a Car was a fantastic experience during our holiday in Tenerife. The customer service was impeccable, and the car we rented was in perfect condition. It made our exploration of the island so much more enjoyable and flexible!",
+    message: "Renting a car from AltaRent a Car was a fantastic experience during our holiday in Tenerife. The customer service was impeccable, and the car we rented was in perfect condition. It made our exploration of the island so much more enjoyable and flexible!",
     avatar: logoTest2,
     name: "Marie D",
     job: "French Tourist"
@@ -93,13 +93,13 @@ export const testimonials = [
     job: "Project Manager"
   },
 //   Marie D., French Tourist:
-// "Renting a car from Elite Rent a Car was a fantastic experience during our holiday in Tenerife. The customer service was impeccable, and the car we rented was in perfect condition. It made our exploration of the island so much more enjoyable and flexible!"
+// "Renting a car from AltaRent a Car was a fantastic experience during our holiday in Tenerife. The customer service was impeccable, and the car we rented was in perfect condition. It made our exploration of the island so much more enjoyable and flexible!"
 
 // Carlos S., Local Entrepreneur:
-// "As a business owner, I often need reliable vehicles for my operations. Elite Rent a Car has consistently met my needs with a wide variety of choices and competitive prices. Their professionalism and flexibility make them my first choice every time."
+// "As a business owner, I often need reliable vehicles for my operations. AltaRent a Car has consistently met my needs with a wide variety of choices and competitive prices. Their professionalism and flexibility make them my first choice every time."
 
 // Jessica L., American Tourist:
-// "Elite Rent a Car made our trip to Tenerife seamless and stress-free. The pick-up and drop-off process was quick and easy, and the staff were incredibly helpful in recommending routes and places to visit. I would definitely use their services again!"
+// "AltaRent a Car made our trip to Tenerife seamless and stress-free. The pick-up and drop-off process was quick and easy, and the staff were incredibly helpful in recommending routes and places to visit. I would definitely use their services again!"
   // Ajoutez plus de témoignages au besoin
 ];
 

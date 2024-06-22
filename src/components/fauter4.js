@@ -26,7 +26,7 @@ const Faute4 = () => {
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="p-6 rounded-md">
           <p className="bg-black bg-opacity-25 p-4 rounded-md text-white text-center text-[20px] font-bold">
-            {t("eliteRentalText")}
+            {t("AltaRentalText")}
           </p>
           <div className="mt-4 flex justify-center">
             <div className="flex gap-4">

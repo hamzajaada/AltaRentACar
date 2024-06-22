@@ -74,7 +74,7 @@ const Legalnotice = () => {
         </p>
         
         <p className="text-[15px]  lg:mt-0  lg:mb-7 lg:mx-0  text-center  lg:text-justify">
-        contact@elite-rentacar.com
+        contact@Alta -rentacar.com
         </p>
       </div>
       <Footer />

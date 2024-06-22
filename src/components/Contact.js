@@ -47,7 +47,7 @@ const Contact = () => {
                         <h1 className="text-white text-3xl text-center md:text-4xl lg:text-5xl font-bold mb-4 mt-[250px]">
                         {t('AboutUs.Discover')} <br/>
                             <span className="text-customRed">
-                            {t('AboutUs.Elite')}
+                            {t('AboutUs.Alta')}
                             </span>
                         </h1>
                         <p className="text-white text-center text-lg md:text-xl lg:text-2xl mb-6">
