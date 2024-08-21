@@ -23,43 +23,25 @@ Python 3.x
 pipenv (ou pip pour gérer les dépendances Python)
 Étapes d'Installation
 Clonez le dépôt :
-
-bash
-Copier le code
 git clone https://github.com/nom-utilisateur/alta-car-rental.git
 cd alta-car-rental
-Installez les dépendances du frontend :
 
-bash
-Copier le code
+Installez les dépendances du frontend :
 cd frontend
 npm install
 Installez les dépendances du backend :
-
-bash
-Copier le code
 cd backend
 pipenv install
 Configurez la base de données et appliquez les migrations :
-
-bash
-Copier le code
 pipenv run python manage.py migrate
 Démarrez le serveur de développement pour le frontend et le backend :
 
 Frontend :
-
-bash
-Copier le code
 npm start
 Backend :
-
-bash
-Copier le code
 pipenv run python manage.py runserver
 Contribution
 Les contributions sont les bienvenues ! Veuillez créer une nouvelle branche pour chaque fonctionnalité ou correction de bug, et soumettre une pull request pour examen.
-
 Licence
 Ce projet est sous licence MIT.
 
