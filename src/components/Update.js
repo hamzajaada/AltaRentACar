@@ -59,7 +59,7 @@ function Update() {
   useEffect(() => {
     const fetchCar = async () => {
       try {
-        const response = await fetch(`${ip_server}/myapp/get_car/${carId}/`);
+        const response = await fetch(`${ip_server}/alta_appli/get_car/${carId}/`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
@@ -130,7 +130,7 @@ function Update() {
     }
 
     try {
-      const response = await fetch(`${ip_server}/myapp/update_car/${carId}/`, {
+      const response = await fetch(`${ip_server}/alta_appli/update_car/${carId}/`, {
         method: 'POST',
         body: formDataToSend,
         credentials: 'include'

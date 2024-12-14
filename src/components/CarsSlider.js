@@ -33,7 +33,7 @@ const CarsSlider = () => {
   const fetchCars = async () => {
     try {
       const response = await fetch(
-        `${ip_server}/myapp/admin/get_cars_from_db_actives/`
+        `${ip_server}/alta_appli/admin/get_cars_from_db_actives/`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");

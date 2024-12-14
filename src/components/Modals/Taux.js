@@ -51,7 +51,7 @@ const Taux = ({ onCancel , taux}) => {
                 try {
                     const formDataToSend = new FormData();
                     formDataToSend.append('taux', n_taux);
-                     const response = await fetch(`${ip_server}/myapp/update_taux/`, {
+                     const response = await fetch(`${ip_server}/alta_appli/update_taux/`, {
                       method: 'POST',
                      body: formDataToSend,
                      credentials: 'include'

@@ -47,7 +47,7 @@ const AddCarForm = () => {
     }
     console.log(data.moteur);
     try {
-    const response = await fetch(`${ip_server}/myapp/add_car/`, {
+    const response = await fetch(`${ip_server}/alta_appli/add_car/`, {
       method: 'POST',
       body: data,
       credentials: 'include'

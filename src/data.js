@@ -377,5 +377,5 @@ export const data_header = {
   'about':'About'
 };
 
-export const ip_server = 'https://baderbenchrifa.pro';
-//export const ip_server = 'http://localhost:8000';
+// export const ip_server = 'https://baderbenchrifa.pro';
+export const ip_server = 'https://pluscar-clone-apis.onrender.com/';

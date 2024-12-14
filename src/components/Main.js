@@ -98,7 +98,7 @@ function Main() {
   const fetchCars = async () => {
     try {
       const response = await fetch(
-        `${ip_server}/myapp/admin/get_cars_from_db/`
+        `${ip_server}/alta_appli/admin/get_cars_from_db/`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");
@@ -118,7 +118,7 @@ function Main() {
 
   const fetchTaux = async () => {
     try {
-      const response = await fetch(`${ip_server}/myapp/get_taux/`);
+      const response = await fetch(`${ip_server}/alta_appli/get_taux/`);
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -163,7 +163,7 @@ function Main() {
       const formDataToSend = new FormData();
       formDataToSend.append("is_active", is_active);
       const response = await fetch(
-        `${ip_server}/myapp/activation_car/${carId}/`,
+        `${ip_server}/alta_appli/activation_car/${carId}/`,
         {
           method: "POST",
           body: formDataToSend,

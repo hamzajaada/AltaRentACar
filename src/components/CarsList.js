@@ -104,7 +104,7 @@ import { useTranslation } from 'react-i18next';
         formDataToSend.append('nbr_jour', localStorage.getItem('daysBetween'));
         console.log("fetch" + end_date);
         
-        const response = await fetch(`${ip_server}/myapp/get_all_cars/`,{
+        const response = await fetch(`${ip_server}/alta_appli/get_all_cars/`,{
           method: 'POST',
           body: formDataToSend,
         });

@@ -8,7 +8,7 @@ const ListAcc = () => {
   const navigate = useNavigate();
   const fetchAccessories = async () => {
     try {
-      const response = await fetch(`${ip_server}/myapp/get_all_accessorys/`);
+      const response = await fetch(`${ip_server}/alta_appli/get_all_accessorys/`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
@@ -53,7 +53,7 @@ const ListAcc = () => {
         formDataToSend.append('nbr_choices', accessory.nbr_choices);
 
 
-    const response = await fetch(`${ip_server}/myapp/update_acc/${accessory.id}/`, {
+    const response = await fetch(`${ip_server}/alta_appli/update_acc/${accessory.id}/`, {
         method: 'POST',
         body: formDataToSend,
         credentials: 'include'

@@ -113,7 +113,7 @@ function CarDetails() {
 
   const fetchCar = async () => {
     try {
-      const response = await fetch(`${ip_server}/myapp/get_car/${carId}/`);
+      const response = await fetch(`${ip_server}/alta_appli/get_car/${carId}/`);
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -136,7 +136,7 @@ function CarDetails() {
   };
   const fetchAccessorys = async () => {
     try {
-      const response = await fetch(`${ip_server}/myapp/get_all_accessorys/`);
+      const response = await fetch(`${ip_server}/alta_appli/get_all_accessorys/`);
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }

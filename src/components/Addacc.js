@@ -30,7 +30,7 @@ const Addacc = () => {
       console.log("key = " + key + " data " + formData[key]);
     }
     try {
-        const response = await fetch(`${ip_server}/myapp/add_acc/`, {
+        const response = await fetch(`${ip_server}/alta_appli/add_acc/`, {
           method: 'POST',
           body: data,
           credentials: 'include'

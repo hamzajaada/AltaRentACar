@@ -10,6 +10,7 @@ import station from '../assets/img/Accesoires/station.png';
 import trans from '../assets/img/Accesoires/transmission.png';
 import door from '../assets/img/Accesoires/door.png';
 import air_condition from '../assets/img/Accesoires/air-conditionne.png';
+
 function Bock() {
   const location = useLocation();
   console.log(location);

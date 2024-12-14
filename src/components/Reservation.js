@@ -8,7 +8,7 @@ const Reservation = () => {
     useEffect(() => {
         const fetchCar = async () => {
           try {
-            const response = await fetch(`${ip_server}/myapp/get_all_bookings/`);
+            const response = await fetch(`${ip_server}/alta_appli/get_all_bookings/`);
             if (!response.ok) {
               throw new Error('Network response was not ok');
             }

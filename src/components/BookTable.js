@@ -31,7 +31,7 @@ const BookTable = ({ bookData }) => {
     }
 
     try {
-      const response = await fetch(`${ip_server}/myapp/update_book/${id_book}/`, {
+      const response = await fetch(`${ip_server}/alta_appli/update_book/${id_book}/`, {
         method: 'POST',
         body: formDataToSend,
       });
@@ -100,7 +100,7 @@ const BookTable = ({ bookData }) => {
   const handleShowAccInfo = (id_acc) => {
     const fetchAccs = async () => {
       try {
-        const response = await fetch(`${ip_server}/myapp/get_acc/${id_acc}/`);
+        const response = await fetch(`${ip_server}/alta_appli/get_acc/${id_acc}/`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
